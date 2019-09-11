@@ -1,7 +1,5 @@
 # GPS Locator from African Soil Samples
 
-A machine learning project using soil data retrieved from the Africa Soil Information Service (AfSIS) to determine the GPS location of where the soil was taken from using different chemical analyses.
-
 Between 2009 and 2013, the Africa Soil Information Service (AfSIS) collected a large number of soil samples from 19 countries in Sub-Saharan Africa. The samples were georeferenced and subsequently analyzed for their nutrient content and chemical composition using a variety of methods that included spectroscopic and traditional wet chemistry techniques. A collation of this data is hosted at arn:aws:s3:::afsis where it can be downloaded for use with the Python code made available in this repository. The files presented here use the AfSIS dataset to pinpoint the GPS location of where the soil sample was taken based on the results from the associated “dry” and “wet” chemical analyses.
 
 More information on the standard operating procedures of the soil sample collection and instrumental techniques can be found at https://github.com/qedsoftware/afsis-soil-chem-tutorial, which is associated with the hosted AWS dataset.
