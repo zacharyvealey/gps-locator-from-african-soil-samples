@@ -18,4 +18,4 @@ Implementation of several machine learning algorithms revealed that k-nearest ne
 
 Evaluation of the R^2 and RMSE metrics on a test set of the data (after attendant hyperparameter tuning via random search) showed that use of the X-ray fluorescence results (R^2 = 0.8394, RMSE = 5.970deg) outperformed the use of the wet chemistry data (R^2 = 0.7590, RMSE = 7.558deg) signaling the advantage held by spectroscopic methods. Indeed, combination of both X-ray and wet chemistry data yielded only minor improvement over use of the X-ray data alone (R^2 = 0.8434, RMSE = 5.895deg).
 
-Finally, examination of the feature importances determined from the random forest regression identified that the strongest predictors of the latitude and longitude of soil sample origin were the concentration of elements Y and K, respectively.
+Finally, examination of the feature importances determined from the random forest regression identified that the strongest predictors of the latitude and longitude of soil sample origin were the concentration of elements Y and K, respectively. 
